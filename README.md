@@ -23,7 +23,7 @@ The `<div>` it creates should insert one of the parameters as a class, and the o
 
 ### Question 3:
 
-Convert the below API call to use the try-catch-finally statement.
+Convert the below API call to use a try-catch-finally statement.
 
 ```js
 async function getFact() {
