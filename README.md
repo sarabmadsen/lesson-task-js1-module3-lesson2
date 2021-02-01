@@ -29,7 +29,6 @@ Convert the below API call to use a try-catch-finally statement.
 async function getFact() {
     const response = await fetch("https://cat-fact.herokuapp.com/facts");
     const results = await response.json();
-    const facts = results.all;
-    console.log(facts[8].text);
+    console.log(results[8].text);
 }
 ```
